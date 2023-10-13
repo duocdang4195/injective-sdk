@@ -1,0 +1,1 @@
+{"version":3,"file":"UiAuctionTransformer.d.ts","sourceRoot":"","sources":["../../../../src/client/transformers/UiAuctionTransformer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,uBAAuB,CAAA;AAE1D,qBAAa,oBAAoB;IAC/B,MAAM,CAAC,mCAAmC,CACxC,KAAK,EAAE,kBAAkB,GACxB,kBAAkB;CAetB"}
