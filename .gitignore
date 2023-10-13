@@ -1,6 +1,6 @@
 reports
 junit.xml
-# dist
+dist
 .build-cache
 .DS_STORE
 # Created by https://www.gitignore.io/api/node,intellij+all,visualstudiocode
@@ -133,7 +133,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+# node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
