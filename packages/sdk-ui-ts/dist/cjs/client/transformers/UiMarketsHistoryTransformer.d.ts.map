@@ -1,1 +1,0 @@
-{"version":3,"file":"UiMarketsHistoryTransformer.d.ts","sourceRoot":"","sources":["../../../../src/client/transformers/UiMarketsHistoryTransformer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,uBAAuB,EAAE,MAAM,uBAAuB,CAAA;AAC/D,OAAO,EAAE,eAAe,EAAE,MAAM,+BAA+B,CAAA;AAE/D,qBAAa,2BAA2B;IACtC,MAAM,CAAC,gCAAgC,CACrC,cAAc,EAAE,uBAAuB,EAAE,GACxC,eAAe,EAAE;CAcrB"}

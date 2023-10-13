@@ -1,7 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.MOONBEAM_MAINNET_CHAIN_ID = exports.MOONBEAM_DOT_CONTRACT_ADDRESS = exports.MOONBEAM_MAINNET_GATEWAY_ADDRESS = void 0;
-exports.MOONBEAM_MAINNET_GATEWAY_ADDRESS = '0x4F4495243837681061C4743b74B3eEdf548D56A5';
-exports.MOONBEAM_DOT_CONTRACT_ADDRESS = '0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080';
-exports.MOONBEAM_MAINNET_CHAIN_ID = 1284;
-//# sourceMappingURL=constants.js.map

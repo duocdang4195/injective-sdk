@@ -1,1 +1,0 @@
-{"version":3,"file":"UiBankTransformer.d.ts","sourceRoot":"","sources":["../../../../src/client/transformers/UiBankTransformer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,IAAI,EAAE,MAAM,yBAAyB,CAAA;AAG9C,qBAAa,iBAAiB;IAC5B,MAAM,CAAC,4BAA4B,CAAC,QAAQ,EAAE,IAAI,EAAE;;;;;;;;IA2BpD,MAAM,CAAC,gBAAgB,CAAC,MAAM,EAAE,IAAI,EAAE;;;;CAMvC"}
