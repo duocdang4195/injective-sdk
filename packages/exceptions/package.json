@@ -5,7 +5,7 @@
   "sideEffects": false,
   "license": "Apache-2.0",
   "main": "dist/cjs/index.js",
-  "module": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "author": {
     "name": "Bojan Angjelkoski",
     "email": "bojan@injectivelabs.org"

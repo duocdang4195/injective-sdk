@@ -8,7 +8,7 @@
     "email": "bojan@injectivelabs.org"
   },
   "main": "dist/cjs/index.js",
-  "module": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
