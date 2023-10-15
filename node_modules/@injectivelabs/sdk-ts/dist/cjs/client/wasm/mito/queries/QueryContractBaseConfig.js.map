@@ -1,0 +1,1 @@
+{"version":3,"file":"QueryContractBaseConfig.js","sourceRoot":"","sources":["../../../../../../src/client/wasm/mito/queries/QueryContractBaseConfig.ts"],"names":[],"mappings":";;;AAAA,uDAAmD;AACnD,6CAA4C;AAM5C,MAAa,uBAAwB,SAAQ,6BAA4C;IACvF,SAAS;QACP,OAAO,IAAA,gBAAQ,EAAC,EAAE,IAAI,EAAE,EAAE,MAAM,EAAE,EAAE,EAAE,EAAE,CAAC,CAAA;IAC3C,CAAC;CACF;AAJD,0DAIC"}
