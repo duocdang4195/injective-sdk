@@ -1,0 +1,68 @@
+{
+  "_from": "@injectivelabs/ts-types@^1.14.0-beta.1",
+  "_id": "@injectivelabs/ts-types@1.14.0-beta.1",
+  "_inBundle": false,
+  "_integrity": "sha512-HE0mQ723wjymqU5gNAU+BtNtBF1CfvFgxDal1kde3uRC93sOW/9wNMl4RksT/Tg9axoKmf6f66rvQ4sILmO70g==",
+  "_location": "/@injectivelabs/ts-types",
+  "_moduleAliases": {
+    "~ts-types": "dist"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@injectivelabs/ts-types@^1.14.0-beta.1",
+    "name": "@injectivelabs/ts-types",
+    "escapedName": "@injectivelabs%2fts-types",
+    "scope": "@injectivelabs",
+    "rawSpec": "^1.14.0-beta.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.14.0-beta.1"
+  },
+  "_requiredBy": [
+    "/@injectivelabs/exceptions",
+    "/@injectivelabs/networks",
+    "/@injectivelabs/sdk-ts",
+    "/@injectivelabs/token-metadata",
+    "/@injectivelabs/utils"
+  ],
+  "_resolved": "https://registry.npmjs.org/@injectivelabs/ts-types/-/ts-types-1.14.0-beta.1.tgz",
+  "_shasum": "ea407d3e4dc80d91c59241d9c7bb8bc9461663d3",
+  "_spec": "@injectivelabs/ts-types@^1.14.0-beta.1",
+  "_where": "/Applications/kytek/coin98-admin/node_modules/@injectivelabs/sdk-ts",
+  "author": {
+    "name": "Bojan Angjelkoski",
+    "email": "bojan@injectivelabs.org"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "link-module-alias": "^1.2.0",
+    "shx": "^0.3.2"
+  },
+  "deprecated": false,
+  "description": "List of types that can be reused throughout Injective's projects.",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "7c88568b0c45b4d5f6cc7b47a9f502a2426797af",
+  "license": "Apache-2.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "name": "@injectivelabs/ts-types",
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json && tsc --build tsconfig.build.esm.json && yarn build:post && link-module-alias",
+    "build:post": "shx cp ../../etc/stub/package.json.stub dist/cjs/package.json && shx cp ../../etc/stub/package.esm.json.stub dist/esm/package.json",
+    "build:watch": "tsc --build -w tsconfig.build.json && tsc -w --build tsconfig.build.esm.json && yarn build:post && link-module-alias",
+    "clean": "tsc --build tsconfig.build.json --clean && tsc --build tsconfig.build.esm.json --clean && shx rm -rf coverage *.log junit.xml dist && jest --clearCache && shx mkdir -p dist",
+    "coverage": "jest --coverage",
+    "coverage:show": "live-server coverage",
+    "dev": "ts-node-dev -r tsconfig-paths/register src/index.ts",
+    "postinstall": "link-module-alias",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:ci": "jest --coverage --ci --reporters='jest-junit'",
+    "test:watch": "jest --watch"
+  },
+  "sideEffects": false,
+  "version": "1.14.0-beta.1"
+}

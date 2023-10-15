@@ -1,0 +1,77 @@
+{
+  "_from": "@injectivelabs/core-proto-ts@^0.0.18",
+  "_id": "@injectivelabs/core-proto-ts@0.0.18",
+  "_inBundle": false,
+  "_integrity": "sha512-WSZS7SQ+I/m8jdc7fhzkMTUhA7i5nVTeKbN6QGqKmOwQ/F+PqM75vDHD9Y9NbLPx9P+m7hyUzSHz4zmajth5jw==",
+  "_location": "/@injectivelabs/core-proto-ts",
+  "_phantomChildren": {
+    "@protobufjs/aspromise": "1.1.2",
+    "@protobufjs/base64": "1.1.2",
+    "@protobufjs/codegen": "2.0.4",
+    "@protobufjs/eventemitter": "1.1.0",
+    "@protobufjs/fetch": "1.1.0",
+    "@protobufjs/float": "1.0.2",
+    "@protobufjs/inquire": "1.1.0",
+    "@protobufjs/path": "1.1.2",
+    "@protobufjs/pool": "1.1.0",
+    "@protobufjs/utf8": "1.1.0",
+    "@types/node": "20.8.6"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@injectivelabs/core-proto-ts@^0.0.18",
+    "name": "@injectivelabs/core-proto-ts",
+    "escapedName": "@injectivelabs%2fcore-proto-ts",
+    "scope": "@injectivelabs",
+    "rawSpec": "^0.0.18",
+    "saveSpec": null,
+    "fetchSpec": "^0.0.18"
+  },
+  "_requiredBy": [
+    "/@injectivelabs/sdk-ts"
+  ],
+  "_resolved": "https://registry.npmjs.org/@injectivelabs/core-proto-ts/-/core-proto-ts-0.0.18.tgz",
+  "_shasum": "aa60ffde2b52cbbf80a18ba77833ecad605d8fd6",
+  "_spec": "@injectivelabs/core-proto-ts@^0.0.18",
+  "_where": "/Applications/kytek/coin98-admin/node_modules/@injectivelabs/sdk-ts",
+  "author": {
+    "name": "Injective Labs"
+  },
+  "bugs": {
+    "url": "https://github.com/InjectiveLabs/injective-core/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@injectivelabs/grpc-web": "^0.0.1",
+    "google-protobuf": "^3.14.0",
+    "protobufjs": "^7.0.0",
+    "rxjs": "^7.4.0"
+  },
+  "deprecated": false,
+  "description": "Injective Chain API Query client with generated gRPC bindings.",
+  "devDependencies": {
+    "@types/long": "^4.0.2",
+    "@types/node": "^18.0.3",
+    "typescript": "^4.7.4"
+  },
+  "homepage": "https://github.com/InjectiveLabs/injective-core#readme",
+  "keywords": [
+    "injective-core",
+    "grpc",
+    "bindings"
+  ],
+  "license": "MIT",
+  "main": "./cjs/index.js",
+  "module": "./cjs/index.js",
+  "name": "@injectivelabs/core-proto-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InjectiveLabs/injective-core.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "sideEffects": "false",
+  "version": "0.0.18"
+}

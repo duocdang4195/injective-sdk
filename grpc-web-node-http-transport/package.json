@@ -1,0 +1,57 @@
+{
+  "_from": "@injectivelabs/grpc-web-node-http-transport@^0.0.2",
+  "_id": "@injectivelabs/grpc-web-node-http-transport@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-rpyhXLiGY/UMs6v6YmgWHJHiO9l0AgDyVNv+jcutNVt4tQrmNvnpvz2wCAGOFtq5LuX/E9ChtTVpk3gWGqXcGA==",
+  "_location": "/@injectivelabs/grpc-web-node-http-transport",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@injectivelabs/grpc-web-node-http-transport@^0.0.2",
+    "name": "@injectivelabs/grpc-web-node-http-transport",
+    "escapedName": "@injectivelabs%2fgrpc-web-node-http-transport",
+    "scope": "@injectivelabs",
+    "rawSpec": "^0.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^0.0.2"
+  },
+  "_requiredBy": [
+    "/@injectivelabs/sdk-ts"
+  ],
+  "_resolved": "https://registry.npmjs.org/@injectivelabs/grpc-web-node-http-transport/-/grpc-web-node-http-transport-0.0.2.tgz",
+  "_shasum": "87c9bbd4db1f70cf18d6a55b54b2cf17d3cf30c0",
+  "_spec": "@injectivelabs/grpc-web-node-http-transport@^0.0.2",
+  "_where": "/Applications/kytek/coin98-admin/node_modules/@injectivelabs/sdk-ts",
+  "author": {
+    "name": "Improbable"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Node HTTP Transport for use with @injectivelabs/grpc-web",
+  "devDependencies": {
+    "@injectivelabs/grpc-web": "^0.0.1",
+    "@types/node": "^14.14.22",
+    "google-protobuf": "^3.14.0",
+    "typescript": "^4.1.3"
+  },
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "name": "@injectivelabs/grpc-web-node-http-transport",
+  "peerDependencies": {
+    "@injectivelabs/grpc-web": ">=0.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/improbable-eng/grpc-web"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "postbootstrap": "npm run build"
+  },
+  "version": "0.0.2"
+}

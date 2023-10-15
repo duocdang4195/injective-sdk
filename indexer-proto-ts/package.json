@@ -1,0 +1,79 @@
+{
+  "_from": "@injectivelabs/indexer-proto-ts@1.11.9",
+  "_id": "@injectivelabs/indexer-proto-ts@1.11.9",
+  "_inBundle": false,
+  "_integrity": "sha512-hUlZbSpii+amvqqefH/oV16igRJSx4mCM/Zi0xMZLHyqGkaX7PHVvjQcfX04hwx2MdSsAoDghJXuUrAJ7q9I2A==",
+  "_location": "/@injectivelabs/indexer-proto-ts",
+  "_phantomChildren": {
+    "@protobufjs/aspromise": "1.1.2",
+    "@protobufjs/base64": "1.1.2",
+    "@protobufjs/codegen": "2.0.4",
+    "@protobufjs/eventemitter": "1.1.0",
+    "@protobufjs/fetch": "1.1.0",
+    "@protobufjs/float": "1.0.2",
+    "@protobufjs/inquire": "1.1.0",
+    "@protobufjs/path": "1.1.2",
+    "@protobufjs/pool": "1.1.0",
+    "@protobufjs/utf8": "1.1.0",
+    "@types/node": "20.8.6"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@injectivelabs/indexer-proto-ts@1.11.9",
+    "name": "@injectivelabs/indexer-proto-ts",
+    "escapedName": "@injectivelabs%2findexer-proto-ts",
+    "scope": "@injectivelabs",
+    "rawSpec": "1.11.9",
+    "saveSpec": null,
+    "fetchSpec": "1.11.9"
+  },
+  "_requiredBy": [
+    "/@injectivelabs/sdk-ts"
+  ],
+  "_resolved": "https://registry.npmjs.org/@injectivelabs/indexer-proto-ts/-/indexer-proto-ts-1.11.9.tgz",
+  "_shasum": "19910f44382da50d16c0e7a58114c06b5b66214d",
+  "_spec": "@injectivelabs/indexer-proto-ts@1.11.9",
+  "_where": "/Applications/kytek/coin98-admin/node_modules/@injectivelabs/sdk-ts",
+  "author": {
+    "name": "Injective Labs"
+  },
+  "bugs": {
+    "url": "https://github.com/InjectiveLabs/injective-indexer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@injectivelabs/grpc-web": "^0.0.1",
+    "google-protobuf": "^3.14.0",
+    "protobufjs": "^7.0.0",
+    "rxjs": "^7.4.0"
+  },
+  "deprecated": false,
+  "description": "Injective Indexer API client with generated gRPC bindings.",
+  "devDependencies": {
+    "@types/long": "^4.0.2",
+    "@types/node": "^18.0.3",
+    "typescript": "^4.7.4"
+  },
+  "homepage": "https://github.com/InjectiveLabs/injective-indexer#readme",
+  "keywords": [
+    "injective-api",
+    "indexer-api",
+    "grpc",
+    "bindings"
+  ],
+  "license": "MIT",
+  "main": "./cjs/index.js",
+  "module": "./cjs/index.js",
+  "name": "@injectivelabs/indexer-proto-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InjectiveLabs/injective-indexer.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "sideEffects": "false",
+  "version": "1.11.9"
+}

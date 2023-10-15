@@ -1,0 +1,82 @@
+{
+  "_from": "@injectivelabs/token-metadata@^1.14.0-beta.1",
+  "_id": "@injectivelabs/token-metadata@1.14.0-beta.1",
+  "_inBundle": false,
+  "_integrity": "sha512-G9UJJJorfMjvNl9S5vPViS7ouGeOKX80pFu+AY6/CNlma3fWTk/rv9vyenSUz4kLnbt360OVPNubZ3HZ9b5Y0g==",
+  "_location": "/@injectivelabs/token-metadata",
+  "_moduleAliases": {
+    "~token-metadata": "dist"
+  },
+  "_phantomChildren": {
+    "glob": "7.2.3",
+    "minimatch": "3.1.2",
+    "mkdirp": "1.0.4",
+    "noms": "0.0.0",
+    "through2": "2.0.5",
+    "untildify": "4.0.0",
+    "yargs": "16.2.0"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@injectivelabs/token-metadata@^1.14.0-beta.1",
+    "name": "@injectivelabs/token-metadata",
+    "escapedName": "@injectivelabs%2ftoken-metadata",
+    "scope": "@injectivelabs",
+    "rawSpec": "^1.14.0-beta.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.14.0-beta.1"
+  },
+  "_requiredBy": [
+    "/@injectivelabs/sdk-ts"
+  ],
+  "_resolved": "https://registry.npmjs.org/@injectivelabs/token-metadata/-/token-metadata-1.14.0-beta.1.tgz",
+  "_shasum": "d2ec023004c89c1b3eed6433852f4e3e63b43cb6",
+  "_spec": "@injectivelabs/token-metadata@^1.14.0-beta.1",
+  "_where": "/Applications/kytek/coin98-admin/node_modules/@injectivelabs/sdk-ts",
+  "author": {
+    "name": "Bojan Angjelkoski",
+    "email": "bojan@injectivelabs.org"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@injectivelabs/exceptions": "^1.14.0-beta.1",
+    "@injectivelabs/networks": "^1.14.0-beta.1",
+    "@injectivelabs/ts-types": "^1.14.0-beta.1",
+    "@injectivelabs/utils": "^1.14.0-beta.1",
+    "@types/lodash.values": "^4.3.6",
+    "copyfiles": "^2.4.1",
+    "jsonschema": "^1.4.0",
+    "link-module-alias": "^1.2.0",
+    "lodash": "^4.17.21",
+    "lodash.values": "^4.3.0",
+    "shx": "^0.3.2"
+  },
+  "deprecated": false,
+  "description": "ERC20 token metadata. Name, symbol, decimals, etc.",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "7c88568b0c45b4d5f6cc7b47a9f502a2426797af",
+  "license": "Apache-2.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/cjs/index.js",
+  "name": "@injectivelabs/token-metadata",
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json && tsc --build tsconfig.build.esm.json && yarn build:post && yarn build:copy-files && link-module-alias",
+    "build:copy-files": "copyfiles -u 1 ./src/images/* ./dist/",
+    "build:post": "shx cp ../../etc/stub/package.json.stub dist/cjs/package.json && shx cp ../../etc/stub/package.esm.json.stub dist/esm/package.json",
+    "build:watch": "tsc --build -w tsconfig.build.json && tsc -w --build tsconfig.build.esm.json && yarn build:post && yarn build:copy-files && link-module-alias",
+    "clean": "tsc --build tsconfig.build.json --clean && tsc --build tsconfig.build.esm.json --clean && shx rm -rf coverage *.log junit.xml dist && jest --clearCache && shx mkdir -p dist",
+    "coverage": "jest --coverage",
+    "coverage:show": "live-server coverage",
+    "dev": "ts-node-dev -r tsconfig-paths/register src/index.ts",
+    "postinstall": "link-module-alias",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:ci": "jest --coverage --ci --reporters='jest-junit'",
+    "test:watch": "jest --watch"
+  },
+  "sideEffects": false,
+  "version": "1.14.0-beta.1"
+}
