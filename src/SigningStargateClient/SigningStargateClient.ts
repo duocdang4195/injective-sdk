@@ -43,8 +43,8 @@ import {
   defaultRegistryTypes,
   StargateClientOptions,
 } from '@cosmjs/stargate';
-import { StargateClient } from './StargateClient';
-import { getPublicKey } from './accountParser';
+import { StargateClient } from '../StargateClient';
+import { getPublicKey } from '../accountParser/accountParser';
 import {
   MsgExecuteContract,
   MsgInstantiateContract,

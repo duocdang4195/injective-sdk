@@ -1,9 +1,10 @@
 {
-  "name": "injective-sdk",
-  "version": "1.0.0",
+  "name": "admin-injective-sdk",
+  "version": "1.0.1",
   "description": "",
-  "main": "./src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

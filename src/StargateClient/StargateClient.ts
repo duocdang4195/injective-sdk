@@ -4,7 +4,7 @@ import {
   accountFromAny,
 } from '@cosmjs/stargate';
 
-import { accountParser } from './accountParser';
+import { accountParser } from '../accountParser/accountParser';
 
 export class StargateClient extends CosmjsStargateClient {
   public async getAccount(searchAddress: string): Promise<Account | null> {
