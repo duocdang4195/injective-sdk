@@ -14,5 +14,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var SigningStargateClient = require("./SigningStargateClient");
 var StargateClient = require("./StargateClient");
 var accountParser = require("./accountParser");
-exports.default = __assign(__assign(__assign({}, SigningStargateClient), StargateClient), accountParser);
+var CoreProto = require("./core-proto-ts/cjs");
+exports.default = __assign(__assign(__assign(__assign({}, SigningStargateClient), StargateClient), accountParser), CoreProto);
 // export default {  ...StargateClient }
