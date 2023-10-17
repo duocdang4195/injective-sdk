@@ -45,7 +45,10 @@ import {
 } from '@cosmjs/stargate';
 import { StargateClient } from '../StargateClient';
 import { getPublicKey } from '../accountParser/accountParser';
-import { MsgExecuteContract, MsgInstantiateContract } from '../core-proto-ts/cjs/cosmwasm/wasm/v1/tx';
+import {
+  MsgExecuteContract,
+  MsgInstantiateContract,
+} from '@injectivelabs/core-proto-ts/cjs/cosmwasm/wasm/v1/tx';
 
 /**
  * Signing information for a single signer that is not included in the transaction.

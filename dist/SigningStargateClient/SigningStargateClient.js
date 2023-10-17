@@ -76,7 +76,7 @@ var stargate_2 = require("@cosmjs/stargate");
 var stargate_3 = require("@cosmjs/stargate");
 var StargateClient_1 = require("../StargateClient");
 var accountParser_1 = require("../accountParser/accountParser");
-var tx_2 = require("../core-proto-ts/cjs/cosmwasm/wasm/v1/tx");
+var tx_2 = require("@injectivelabs/core-proto-ts/cjs/cosmwasm/wasm/v1/tx");
 function createDefaultAminoConverters() {
     return __assign(__assign(__assign(__assign(__assign(__assign(__assign(__assign({}, (0, stargate_2.createAuthzAminoConverters)()), (0, stargate_2.createBankAminoConverters)()), (0, stargate_2.createDistributionAminoConverters)()), (0, stargate_2.createGovAminoConverters)()), (0, stargate_2.createStakingAminoConverters)()), (0, stargate_2.createIbcAminoConverters)()), (0, stargate_2.createFeegrantAminoConverters)()), (0, stargate_2.createVestingAminoConverters)());
 }
