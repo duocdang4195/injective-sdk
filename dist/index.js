@@ -11,7 +11,8 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var SigningStargateClient_1 = require("./SigningStargateClient");
-var StargateClient_1 = require("./StargateClient");
+var SigningStargateClient = require("./SigningStargateClient");
+var StargateClient = require("./StargateClient");
 var accountParser = require("./accountParser");
-exports.default = __assign(__assign(__assign({}, SigningStargateClient_1.SigningStargateClient), StargateClient_1.StargateClient), accountParser);
+exports.default = __assign(__assign(__assign({}, SigningStargateClient), StargateClient), accountParser);
+// export default {  ...StargateClient }
