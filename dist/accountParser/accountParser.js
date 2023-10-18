@@ -37,7 +37,8 @@ var getPublicKey = function (_a) {
     if (chainId.startsWith('injective')) {
         proto = core_proto_ts_1.CosmosCryptoSecp256k1Keys.PubKey.create();
         baseProto = core_proto_ts_1.CosmosCryptoSecp256k1Keys.PubKey;
-        path = '/injective.crypto.v1beta1.ethsecp256k1.PubKey';
+        path = '/cosmos.crypto.secp256k1.PubKey';
+        // path = '/injective.crypto.v1beta1.ethsecp256k1.PubKey';
     }
     else if (chainId.startsWith('evmos')) {
         proto = core_proto_ts_1.CosmosCryptoSecp256k1Keys.PubKey.create();

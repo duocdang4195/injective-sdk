@@ -51,7 +51,8 @@ export const getPublicKey = ({
   if (chainId.startsWith('injective')) {
     proto = CosmosCryptoSecp256k1Keys.PubKey.create();
     baseProto = CosmosCryptoSecp256k1Keys.PubKey;
-    path = '/injective.crypto.v1beta1.ethsecp256k1.PubKey';
+    path = '/cosmos.crypto.secp256k1.PubKey';
+    // path = '/injective.crypto.v1beta1.ethsecp256k1.PubKey';
   } else if (chainId.startsWith('evmos')) {
     proto = CosmosCryptoSecp256k1Keys.PubKey.create();
     baseProto = CosmosCryptoSecp256k1Keys.PubKey;
