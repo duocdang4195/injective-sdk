@@ -3,7 +3,7 @@ import {
   CosmosCryptoSecp256k1Keys,
   GoogleProtobufAny,
   InjectiveTypesV1Beta1Account,
-} from '@injectivelabs/core-proto-ts';
+} from '@injectivelabs/core-proto-ts/cjs';
 
 export const accountParser = (ethAccount: any): Account => {
   const account = InjectiveTypesV1Beta1Account.EthAccount.decode(
